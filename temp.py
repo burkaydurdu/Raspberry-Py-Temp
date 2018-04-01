@@ -6,7 +6,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
-instance = dht11.DHT11(pin = 14)
+instance = dht11.DHT11(pin = 26)
 result = instance.read()
 
 if result.is_valid():
